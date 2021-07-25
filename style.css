@@ -1,1 +1,51 @@
-/*Tag selectors*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+input {
+  font-family: Poppins;
+}
+img {
+  width: 50%;
+  /* height: 350px; */
+  margin: 10px auto;
+  /* object-fit: cover; */
+  box-shadow: 0 0 10px rgb(173, 173, 194);
+}
+p {
+  font-size: 16px;
+}
+
+.portrait {
+  /* height: 850px; */
+}
+.manodiv {
+  border: 2px outset rgb(158, 145, 145);
+  background: rgb(243, 246, 247);
+  background: linear-gradient(
+    180deg,
+    rgba(243, 246, 247, 1) 0%,
+    rgba(224, 226, 228, 1) 61%,
+    rgba(189, 193, 194, 1) 100%
+  );
+  padding: 30px;
+}
+.hobis {
+  text-align: left;
+  border-bottom: 3px solid #cecaca;
+  margin: 20px 0;
+}
+.formos-elemento-grupe {
+  display: inline-block;
+  margin-right: 30px;
+}
+.konteineris {
+  margin-bottom: 20px;
+}
+input {
+  padding: 5px;
+  color: darkblue;
+  width: 200px;
+}
